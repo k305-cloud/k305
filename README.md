@@ -1,1 +1,75 @@
-# k305
+#YOLOEVENTS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111827;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 70px 20px;
+      background: #1f2937;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #d1d5db;
+      line-height: 1.7;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    button {
+      padding: 13px 24px;
+      border: none;
+      border-radius: 8px;
+      background: #38bdf8;
+      color: #111827;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      padding: 20px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>My website. My ideas. My future.</p>
+    <button onclick="showMessage()">Click Me</button>
+  </header>
+
+  <main>
+    <h2>About Me</h2>
+    <p>This is my own website, built from scratch.</p>
+  </main>
+
+  <footer>
+    &copy; 2026 My Website
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Thanks for visiting my website!");
+    }
+  </script>
+</body>
+</html>
+
